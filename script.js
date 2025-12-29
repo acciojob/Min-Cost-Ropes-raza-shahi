@@ -8,8 +8,8 @@ function mincost(arr)
 		let first = arr.shift();
 		let second = arr.shift();
 		let minCost = first+second;
-		totalMinCost +=mincost;
-		arr.push(mincost);
+		totalMinCost +=minCost;
+		arr.push(minCost);
 	}
   return totalMinCost;
 }
